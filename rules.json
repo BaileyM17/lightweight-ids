@@ -1,0 +1,6 @@
+[
+  { "pattern": "failed\\s+login", "message": "Possible brute force attack", "ignore_case": true },
+  { "pattern": "unauthorized\\s+access", "message": "Unauthorized access attempt", "ignore_case": true },
+  { "pattern": "port\\s+scan", "message": "Port scanning activity detected", "ignore_case": true },
+  { "pattern": "\\b\\d{1,3}(?:\\.\\d{1,3}){3}\\b", "message": "IP address detected", "ignore_case": false }
+]
